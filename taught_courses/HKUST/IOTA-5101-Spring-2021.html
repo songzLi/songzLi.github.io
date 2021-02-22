@@ -11,13 +11,14 @@ body {
 }
 
 table.main {
-	margin-left:auto; 
+   margin-left:auto; 
    margin-right:auto;
-   width:1400px;
+   width:1200px;
    border-collapse: collapse;
   	/*border: 2px solid #000000;*/
-  	background-color: #FFFAFA;
+  	background-color: #FFFAFA; 
 }
+
 
 td, th {
   border: 2px solid #000000;
@@ -124,16 +125,24 @@ a:active {
 	</li>
 </ul>
 
-<h3>Tentative class schedule</h3>
+<h3>Class schedule</h3>
 <table class="main">
+
+	<col style="width:10%">
+	<col style="width:10%">
+	<col style="width:30%">
+	<col style="width:50%">
+	<thead>
+	
       <tr>
         <th>Lec. #</th>
         <th>Date</th>
         <th>Topics</th>
-        <th>Lec. notes</th>
-        <th>Lec. scribes</th>
+        <!-- <th>Lec. notes</th> -->
+        <!--  <th>Lec. scribes</th> -->
         <th>References</th>
       </tr>
+
 
       <tr>
         <td>1</td>
@@ -144,17 +153,66 @@ a:active {
         		<li>IoT computing paradigms</li>
         	</ul>
         </td>
-        <td>-</td>
-        <td>-</td>
+       <!--  <td>
+        	<ul>
+        		<li><a href="IoT_applications.pdf">IoT applications</a></li>
+        		<li><a href="computing_paradigm.pdf">Computing paradigms</a></li>
+        	</ul>
+        </td> -->
+        <!-- <td>-</td> -->
         <td>
         	<ol>
-        		<li><a href="https://www.gartner.com/en/newsroom/press-releases/2019-08-29-gartner-says-5-8-billion-enterprise-and-automotive-io#:~:text=Gartner%2C%20Inc.,a%2021%25%20increase%20from%202019.&text=Utilities%20will%20be%20the%20highest,to%20reach%201.37%20billion%20endpoints" target="_blank">IoT market</a></li>
-        		<li><a href="https://www.i-scoop.eu/internet-of-things-guide/iot-2019-spending-trends/" target="_blank">IoT spending</a></li>
-        		<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8869772" target="_blank">Foundations and evolution of modern computing paradigms: Cloud, iot, edge, and fog</a></li>
-        		<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7498684" target="_blank">Fog and IoT: An overview of research opportunities</a></li>
+        		<li><a href="https://www.gartner.com/en/newsroom/press-releases/2019-08-29-gartner-says-5-8-billion-enterprise-and-automotive-io#:~:text=Gartner%2C%20Inc.,a%2021%25%20increase%20from%202019.&text=Utilities%20will%20be%20the%20highest,to%20reach%201.37%20billion%20endpoints">IoT market</a></li>
+        		<li><a href="https://www.i-scoop.eu/internet-of-things-guide/iot-2019-spending-trends/">IoT spending</a></li>
+        		<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8869772">Foundations and evolution of modern computing paradigms: Cloud, iot, edge, and fog</a></li>
+        		<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7498684">Fog and IoT: An overview of research opportunities</a></li>
         	</ol>
         </td>
       </tr>
+
+
+      <tr>
+      	<td>2</td>
+      	<td>Feb. 8</td>
+      	<td>
+        	<ul>
+        		<li>Information measures</li>
+        		<li>Introduction to coding theory</li>
+        	</ul>
+        </td>
+         <td>
+        	<ol>
+        		<li><a href="https://www.wiley.com/en-us/Elements+of+Information+Theory%2C+2nd+Edition-p-9780471241959">Elements of Information Theory, 2nd edition</a></li>
+        		<li><a href="https://www.amazon.com/Error-Control-Coding-2nd-Shu/dp/0130426725">Error Control Coding, 2nd edition</a></li>
+        	</ol>
+        </td>
+      </tr>
+
+
+      <tr>
+      	<td>3</td>
+      	<td>Feb. 22</td>
+      	<td>
+        	<ul>
+        		<li>Distributed file systems</li>
+        		<li>Coded storage</li>
+        	</ul>
+        </td>
+         <td>
+        	<ol>
+        		<li><a href="https://dl.acm.org/doi/pdf/10.1145/945445.945450">The Google file system</a></li>
+        		<li><a href="https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html">HDFS Architecture</a></li>
+        		<li><a href="https://engineering.fb.com/2014/06/05/core-data/saving-capacity-with-hdfs-raid/">Saving capacity with HDFS RAID</a></li>
+        		<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5550492">Network coding for distributed storage systems</a></li>
+        		<li><a href="https://arxiv.org/pdf/1005.4178.pdf">Optimal Exact-Regenerating Codes for Distributed Storage at the MSR and MBR Points via a Product-Matrix Construction</a></li>
+        		<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6820791">A family of optimal locally recoverable codes</a></li>
+        	</ol>
+        </td>
+      </tr>
+
+
+
+
 </table>
 <noscript>
 </body>
